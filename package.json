@@ -1,0 +1,60 @@
+{
+  "name": "@u-pay/denuncias-schemas",
+  "version": "0.1.1",
+  "description": "U Payments Denuncias schemas",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "gulp",
+    "audit": "npm audit",
+    "lint": "eslint ."
+  },
+  "pre-commit": [
+    "lint",
+    "audit",
+    "test"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-security": "^1.4.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=10.9.0",
+    "npm": ">=6.13.0",
+    "yarn": ">=1.20.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "registry=https://u-payments.pkgs.visualstudio.com/eae9e050-c51c-4ce9-9d24-6a451b0b4956/_packaging/u-pay-denuncia-feed/npm/registry/"
+  },
+  "author": {
+    "email": "tech@u-payments.com",
+    "name": "Universal Payments SpA",
+    "url": "https://www.u-payments.com"
+  },
+  "contributors": [
+    "Elias Manriquez <elias.manriquez@u-payments.com>",
+    "Daniel Torres <daniel.torres@u-payments.com>"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://www.u-payments.com",
+  "repository": {
+    "type": "GIT",
+    "url": "https://u-payments.visualstudio.com/PM%20-%20SaboresCard/_git/u-pay-saborescard-schemas"
+  },
+  "bugs": {
+    "email": "bugs@u-payments.com"
+  }
+}
